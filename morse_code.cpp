@@ -97,6 +97,7 @@ std::vector<int> search_morse_char(char x)
     return value;
 }
 
+/*
 int main (void) 
 {
     char message[] = "Hello World!";
@@ -112,3 +113,4 @@ int main (void)
     
  	return 0;
 }
+*/
