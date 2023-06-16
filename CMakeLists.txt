@@ -28,6 +28,8 @@ pico_sdk_init()
 add_executable(Morse-Code 
         main.cpp 
         morse_code.cpp
+        generalOps.c
+        LCDops.c
 )
 
 pico_set_program_name(Morse-Code "Morse-Code")
