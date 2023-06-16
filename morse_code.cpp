@@ -81,7 +81,7 @@ void morse_vals()
     morse_map[':'] = {1, 1, 1, 0, 0, 0};     
     morse_map[';'] = {1, 0, 1, 0, 1, 0};     
     morse_map['-'] = {1, 0, 0, 0, 0, 1}; 
-    morse_map[' '] =  {0, 0, 0, 0, 0, 0, 0}; 
+    morse_map[' '] =  {3}; 
 }   
 
 std::vector<int> search_morse_char(char x) 
